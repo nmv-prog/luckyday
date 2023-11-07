@@ -1,7 +1,7 @@
 import express from 'express';
 const app = express();
 
-app.get('/coupon', (req, res) => {
+app.get('/coupons', (req, res) => {
 
     let couponData = {
         recognizePage: {
@@ -23,12 +23,28 @@ app.get('/coupon', (req, res) => {
             qrcodeSteimatzky: 'https://is.gd/qN6QsR',
             qrcodeSweetime: 'https://is.gd/jKuT2D',
             qrcodeSuperpharm: 'https://is.gd/smokGa',
-        }
+        },
     };
 
     res.json(couponData);
 
 });
+
+app.get('/gifts', (req, res) => {
+
+    let giftsData = {
+            apartment: 'https://amiel.club/uploads/posts/2022-09/1664444424_24-amiel-club-p-kvartiri-v-izraile-vkontakte-24.jpg',
+            car: 'https://adt.by/wp-content/uploads/2021/04/priz-avtomobil.jpg',
+            vacation: 'https://oteli-zamki.ru/israel/images/eilat4.jpg',
+            imageGenie: 'https://medinaschool.org/files/images/2017/11/70fded8b4b041393ab3767ba212fc902.png',
+        
+    };
+
+    res.json(giftsData);
+
+});
+
+
 
 const PORT = 5000;
 app.listen(PORT, () => {
