@@ -29,3 +29,10 @@ export interface QRCodesType {
     qrcodeSweetime?: string;
     qrcodeSuperpharm?: string;
 }
+
+export interface GiftsType {
+    apartment?: string;
+    car?: string;
+    vacation?: string;
+    imageGenie?: string;
+}

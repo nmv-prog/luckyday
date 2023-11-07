@@ -1,5 +1,5 @@
-import { ImageStyle, LogoStyle, PageStyle, TitleStyle } from '../styles/styles';
-import { ObjectType } from '../utils/types';
+import { ImageStyle, LogoStyle, PageStyle, TitleStyle } from '../../styles/couponsStyles';
+import { ObjectType } from '../../utils/types';
 
 interface Props {
     changePage: (page: string) => void

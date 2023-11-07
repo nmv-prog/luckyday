@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { ImageStyle, LinkStyle, LogoStyle, PageStyle, TextStyle, TitleStyle, TitleTextStyle } from '../styles/styles';
-import { RecognizePageType } from '../utils/types';
+import { ImageStyle, LinkStyle, LogoStyle, PageStyle, TextStyle, TitleStyle, TitleTextStyle } from '../../styles/couponsStyles';
+import { RecognizePageType } from '../../utils/types';
 
 interface Props {
     recognizePage: RecognizePageType,
