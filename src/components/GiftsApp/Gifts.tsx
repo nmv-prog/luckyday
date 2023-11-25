@@ -26,9 +26,9 @@ const Gifts = () => {
     }, []);
 
   return (
-        // <Car image={giftsData?.car} imageGenie={giftsData?.imageGenie}/>
+        <Car image={giftsData?.car} imageGenie={giftsData?.imageGenie}/>
         // <Apartment image={giftsData?.apartment} imageGenie={giftsData?.imageGenie}/>
-        <Vacation image={giftsData?.vacation} imageGenie={giftsData?.imageGenie}/>
+        // <Vacation image={giftsData?.vacation} imageGenie={giftsData?.imageGenie}/>
   )
 }
 

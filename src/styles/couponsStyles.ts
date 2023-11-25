@@ -42,8 +42,9 @@ export const TextStyle = styled.p`
     margin: 0;
 `;
 
-export const TitleTextStyle = styled.p`
+export const TitleTextStyle = styled.span`
     display: flex;
+    margin: 30px;
 `;
 
 export const LogoStyle = styled.img`

@@ -1,4 +1,3 @@
-import React from 'react'
 import { GenieStyle, GiftPageStyle, TitleStyle, VacationImageStyle } from '../../styles/giftsStyles'
 
 interface Props {

@@ -31,5 +31,3 @@ const Coupon = ({ changePage, openNewWindow, couponData }: Props) => {
 }
 
 export default Coupon
-
-
