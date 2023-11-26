@@ -1,7 +1,7 @@
-import { ButtonStyle, FooterFonStyle, HeaderFonStyle, PageStyle, TitleRegistrationStyle, CustomMUISaveButtonStyle, CustomMUIFotterLinkStyle, CustomFonstAwesomeIconArrowBackStyle } from '../../../styles/SignUpStyles/SignUpStyle'
+import { ButtonStyle, FooterFonStyle, HeaderFonStyle, PageStyle, TitleRegistrationStyle, CustomMUISaveButtonStyle, CustomMUIFotterLinkStyle, CustomFonstAwesomeIconArrowBackStyle } from '../../../styles/GamerSignUpStyles/SignUpStyle'
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
 import PersonalDetails from './PersonalDetails'
 import Address from './Address'
 import Genders from './Genders'
@@ -9,12 +9,12 @@ import ImportantDates from './ImportantDates'
 import FriendsRelated from './FriendsRelated';
 import Hobbies from './Hobbies';
 
-const SignUp = () => {
+const GamerSignUp = () => {
 
   return (
     <PageStyle>
       <HeaderFonStyle></HeaderFonStyle>
-      <ButtonStyle><CustomFonstAwesomeIconArrowBackStyle icon={faArrowLeft} size='xl' /></ButtonStyle>
+      <ButtonStyle><CustomFonstAwesomeIconArrowBackStyle icon={faArrowLeftLong} size='xl' /></ButtonStyle>
       <TitleRegistrationStyle>Registration</TitleRegistrationStyle>
       <PersonalDetails />
       <Address />
@@ -30,4 +30,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default GamerSignUp

@@ -3,7 +3,7 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import React, { useState } from 'react'
 import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
-import { CustomMUIFormControlStyle, CustomMUIInputLabelStyle, CustomMUISelectStyle } from '../../../styles/SignUpStyles/InputSelectStyles';
+import { CustomMUIFormControlStyle, CustomMUIInputLabelStyle, CustomMUISelectStyle } from '../../../styles/GamerSignUpStyles/InputSelectStyles';
 
 interface Props {
     label: string[],

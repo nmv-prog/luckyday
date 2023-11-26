@@ -4,7 +4,7 @@ export const CustomMUIFormControlStyle = {
 
 export const CustomMUIDatePickerStyle = {
     '.MuiInputBase-root': { paddingBottom: '7px' },
-    '.MuiInputLabel-root': { fontSize: '20px', fontFamily: 'Metrophobic', paddingLeft: '5px' },
+    '.MuiInputLabel-root': { fontSize: '20px', fontFamily: 'Metrophobic', paddingLeft: '15px' },
 };
 
 export const CustomMUIDatePickerProps = {

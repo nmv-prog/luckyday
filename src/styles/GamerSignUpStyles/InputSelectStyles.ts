@@ -5,7 +5,7 @@ export const CustomMUIFormControlStyle = {
 export const CustomMUIInputLabelStyle = {
     fontSize: '20px',
     fontFamily: 'Metrophobic',
-    paddingLeft: '5px'
+    paddingLeft: '15px'
 };
 
 export const CustomMUISelectStyle = {

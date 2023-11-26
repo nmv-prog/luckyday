@@ -2,7 +2,7 @@ import { FormControl } from '@material-ui/core';
 import { DatePicker } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { CustomMUIDatePickerProps, CustomMUIDatePickerStyle, CustomMUIFormControlStyle } from '../../../styles/SignUpStyles/InputDateStyles';
+import { CustomMUIDatePickerProps, CustomMUIDatePickerStyle, CustomMUIFormControlStyle } from '../../../styles/GamerSignUpStyles/InputDateStyles';
 // import { useState } from 'react';
 
 const InputDate = () => {

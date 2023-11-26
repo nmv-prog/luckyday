@@ -1,8 +1,8 @@
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import female from '../../../images/female.png'
 import male from '../../../images/male.png'
-import { ButtonAnotherGenderStyle, ButtonsGenderStyle, CustomFonstAwesomeIconUserStyle } from '../../../styles/SignUpStyles/GendersStyles'
-import { ButtonStyle } from '../../../styles/SignUpStyles/SignUpStyle'
+import { ButtonAnotherGenderStyle, ButtonsGenderStyle, CustomFonstAwesomeIconUserStyle } from '../../../styles/GamerSignUpStyles/GendersStyles'
+import { ButtonStyle } from '../../../styles/GamerSignUpStyles/SignUpStyle'
 
 const Genders = () => {
     return (

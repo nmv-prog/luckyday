@@ -1,4 +1,4 @@
-import { ButtonAddStyle, FriendsRelatedChapterStyle, InputDatePosition, InputSelectPosition, InputTypicalPosition } from '../../../styles/SignUpStyles/FriendsRelatedStyles'
+import { ButtonAddStyle, FriendsRelatedChapterStyle, InputDatePosition, InputSelectPosition, InputTypicalPosition } from '../../../styles/GamerSignUpStyles/FriendsRelatedStyles'
 import { RelationshipsItems, SelectsLabels } from '../../../utils/constants'
 import InputDate from './InputDate'
 import InputSelect from './InputSelect'

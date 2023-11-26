@@ -1,4 +1,4 @@
-import { ImportantDatesChapterStyle, InputDatePosition, InputSelectFamilyStatusPosition, InputSelectNumberOfKidsPosition } from '../../../styles/SignUpStyles/ImportantDatesStyles'
+import { ImportantDatesChapterStyle, InputDatePosition, InputSelectFamilyStatusPosition, InputSelectNumberOfKidsPosition } from '../../../styles/GamerSignUpStyles/ImportantDatesStyles'
 import { FamilyStatusItems, NumberOfKidsItems, SelectsLabels } from '../../../utils/constants'
 import InputDate from './InputDate'
 import InputSelect from './InputSelect'

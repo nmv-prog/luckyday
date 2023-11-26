@@ -2,9 +2,8 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const PageStyle = styled.div`
-    height: 100vh;
-    width: 424px;
-    height: 2223px;
+    width: 430px;
+    height: 1025px;
     border: 1px solid black;
     margin: 30px auto;
     background-color: rgba(255, 255, 255, 1);
@@ -15,7 +14,7 @@ export const PageStyle = styled.div`
 export const HeaderFonStyle = styled.div`
     height: 349px;
     width: 761px;
-    background-color: #A938A4;
+    background-color: rgba(251, 195, 30, 1);
     border-radius: 50%;
     position: absolute;
     top: -194px;
@@ -31,7 +30,7 @@ export const TitleRegistrationStyle = styled.p`
     margin: 0;
     top: 71px;
     left: 22px;
-    color: #FFF;
+    color: rgba(86, 86, 86, 1);
     font-size: 30px;
     font-weight: 400;
     line-height: 43px;
@@ -56,7 +55,7 @@ export const FooterFonStyle = styled.div`
     align-items: center;
     justify-content: center;
     height: 71px;
-    width: 424px;
+    width: 100%;
     background-color: rgba(54, 229, 208, 1);
     position: absolute;
     bottom: 0;
@@ -83,7 +82,7 @@ export const CustomMUISaveButtonStyle = {
     color: 'rgba(86, 86, 86, 1)',
     backgroundColor: 'rgba(54, 229, 208, 1)',
     fontFamily: 'Manrope',
-    fontSize: '30px',
+    fontSize: '25px',
     textTransform: 'capitalize',
     '&:hover': {
         backgroundColor: 'rgba(34, 189, 168, 1)'
@@ -99,7 +98,7 @@ export const CustomMUIFotterLinkStyle = {
 
 
 export const CustomFonstAwesomeIconArrowBackStyle = styled(FontAwesomeIcon)`
-    color: #ffffff;
+    color: rgba(86, 86, 86, 1);
     position: absolute;
     z-index: 20;
     top: 25px;

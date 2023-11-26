@@ -1,5 +1,5 @@
-import { AllHobbiesStyle, HobbyNameStyle, HobbyStyle, ImageHobbyStyle } from '../../../styles/SignUpStyles/HobbiesStyles'
-import { ChapterStyle } from '../../../styles/SignUpStyles/SignUpStyle'
+import { AllHobbiesStyle, HobbyNameStyle, HobbyStyle, ImageHobbyStyle } from '../../../styles/GamerSignUpStyles/HobbiesStyles'
+import { ChapterStyle } from '../../../styles/GamerSignUpStyles/SignUpStyle'
 import { hobbies } from '../../../utils/constants'
 
 const Hobbies = () => {

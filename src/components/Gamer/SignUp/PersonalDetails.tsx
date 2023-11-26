@@ -1,4 +1,4 @@
-import { PersonalDetailsChapterStyle, PersonalDetailsInputsStyle } from '../../../styles/SignUpStyles/PersonalDetailsStyles'
+import { PersonalDetailsChapterStyle, PersonalDetailsInputsStyle } from '../../../styles/GamerSignUpStyles/PersonalDetailsStyles'
 import { InputsRequiredLabels } from '../../../utils/constants'
 import InputRequired from './InputRequired'
 

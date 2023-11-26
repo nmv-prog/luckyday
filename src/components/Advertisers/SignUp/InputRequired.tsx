@@ -1,7 +1,7 @@
 import InputLabel from '@material-ui/core/InputLabel';
 import Input from '@material-ui/core/Input';
 import FormControl from '@material-ui/core/FormControl';
-import { CustomMUIFormControlStyle, CustomMUIInputLabelStyle, CustomMUIInputStyle, StarStyle } from '../../../styles/GamerSignUpStyles/InputRequiredStyles';
+import { CustomMUIFormControlStyle, CustomMUIInputLabelStyle, CustomMUIInputStyle, StarStyle } from '../../../styles/AdvertisersSignUpStyles/InputRequiredStyles';
 
 interface Props {
   label: string[]

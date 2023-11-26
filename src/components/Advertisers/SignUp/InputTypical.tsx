@@ -1,7 +1,7 @@
 import FormControl from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
-import { CustomMUIFormControlStyle, CustomMUIInputLabelStyle, CustomMUIInputStyle } from '../../../styles/GamerSignUpStyles/InputTypicalStyles';
+import { CustomMUIFormControlStyle, CustomMUIInputLabelStyle, CustomMUIInputStyle } from '../../../styles/AdvertisersSignUpStyles/InputTypicalStyles';
 
 interface Props {
   label: string
@@ -13,7 +13,7 @@ const InputTypical = ({ label }: Props) => {
       <InputLabel htmlFor={label} style={CustomMUIInputLabelStyle}>
         {label.charAt(0).toUpperCase() + label.slice(1)}
       </InputLabel>
-      <Input id={label} required style={CustomMUIInputStyle} />
+      <Input id={label} style={CustomMUIInputStyle} />
     </FormControl>
   )
 }

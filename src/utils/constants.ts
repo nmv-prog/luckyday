@@ -36,3 +36,19 @@ export const hobbies = [
 ];
 
 
+export const CompanyDetailsInputsLabels = [
+    ['companyName', 'Company Name'],
+    ['companyId', 'Company ID'],
+    ['country', 'Country'],
+    ['city', 'City'],
+    ['address', 'Address']
+];
+
+
+export const ContactPersonDetailsInputsLabels = [
+    ['fullName', 'Full Name'],
+    ['role', 'Role'],
+    ['officeNumber', 'Office number'],
+    ['mobileNumber', 'Mobile number']
+];
+

@@ -1,14 +1,17 @@
 import './App.css';
+import AdvertisersSignUp from './components/Advertisers/SignUp/AdvertisersSignUp';
 import CouponsApp from './components/CouponsApp/CouponsApp';
-import SignUp from './components/Gamer/SignUp/SignUp';
+import GamerSignUp from './components/Gamer/SignUp/GamerSignUp';
+import SignUp from './components/Gamer/SignUp/GamerSignUp';
 import Gifts from './components/GiftsApp/Gifts';
 
 function App() {
 
   return (
-      // <CouponsApp />
-      // <Gifts />
-      <SignUp/>
+    // <CouponsApp />
+    // <Gifts />
+    // <GamerSignUp />
+    <AdvertisersSignUp />
   );
 }
 

@@ -1,4 +1,4 @@
-import { AddressChapterStyle, AddressInputsStyle } from '../../../styles/SignUpStyles/AddressStyles'
+import { AddressChapterStyle, AddressInputsStyle } from '../../../styles/GamerSignUpStyles/AddressStyles'
 import { InputsLabels } from '../../../utils/constants'
 import InputTypical from './InputTypical'
 
